@@ -49,16 +49,16 @@
 git clone https://github.com/jvaydulloevProjects/PING-PONG_Client-Server.git
 cd PING-PONG_Client-Server
 ```
-2. **Compile the server and client**
+2. ** Compile the server and client**
 ```bash
   g++ -std=c++17 src/server.cpp main_server.cpp -o UDPServer
   g++ -std=c++17 src/client.cpp main_client.cpp -o UDPClient
 ```
-3. **Run the server**
+3. ** Run the server**
 ```bash
 ./UDPServer
 ```
-4. **Run the client**
+4. ** Run the client**
 ```bash
 ./UDPClient
 ```
