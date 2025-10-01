@@ -63,7 +63,7 @@ cd PING-PONG_Client-Server
 ./UDPClient
 ```
 
-Server logs:
+Server logs
 ```
 Server listen
 Received: PING
