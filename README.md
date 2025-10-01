@@ -46,8 +46,8 @@
 
 1. ** Clone the repository**
 ```bash
-  git clone <your-repo-url>
-  cd <repository-folder>
+g++ -std=c++17 src/server.cpp main_server.cpp -o UDPServer
+g++ -std=c++17 src/client.cpp main_client.cpp -o UDPClient
 ```
 2. **Compile the server and client**
 ```bash
@@ -56,9 +56,9 @@
 ```
 3.Run the server
 ```bash
-  ./UDPServer
+./UDPServer
 ```
 4.Run the client
 ```bash
-  ./UDPClient
+./UDPClient
 ```
