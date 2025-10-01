@@ -46,8 +46,8 @@
 
 1. ** Clone the repository**
 ```bash
-g++ -std=c++17 src/server.cpp main_server.cpp -o UDPServer
-g++ -std=c++17 src/client.cpp main_client.cpp -o UDPClient
+git clone https://github.com/jvaydulloevProjects/PING-PONG_Client-Server.git
+cd PING-PONG_Client-Server
 ```
 2. **Compile the server and client**
 ```bash
@@ -61,4 +61,24 @@ g++ -std=c++17 src/client.cpp main_client.cpp -o UDPClient
 4.Run the client
 ```bash
 ./UDPClient
+```
+
+Server logs:
+```
+Server listen
+Received: PING
+Sended: PONG
+Received: PONG
+Sended: PING
+
+```
+
+Client logs
+```
+Enter: PING
+Sended to server: PING
+Received from server: PONG
+Enter: PONG
+Sended to server: PONG
+Received from server: PING
 ```
